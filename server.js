@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     origin: '*',
     methods: 'GET, POST, DELETE',
-    allowedHeaders: 'X-Requested-With,Content-Type',
+    allowedHeaders: ['X-Requested-With, Content-Type', 'ngrok-skip-browser-warning'],
     // credentials: true,
     exposedHeaders: ['Content-Disposition'],
 }));
@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 
 app.use("/interview", interviewTestPath);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 // Start the server
 app.listen(port, () => {
     console.log("================================================");
