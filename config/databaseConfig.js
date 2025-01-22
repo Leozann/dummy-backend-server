@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';  // Import necessary for ES modules
+import { fileURLToPath } from 'url';
 
 // Resolving the path based on the current module's directory
 function resolvePath(dbPath) {
@@ -10,7 +10,7 @@ function resolvePath(dbPath) {
     return newPath;
 }
 
-function createRecord(dbPath, newRecord) {
+function createRecords(dbPath, newRecord) {
     try {
         const path = resolvePath(dbPath);
         // Read existing data from file
@@ -36,24 +36,32 @@ function readRecords(dbPath) {
     }
 }
 
-function updateRecord(dbPath, targetId, updatedRecord) {
+function updateRecords(dbPath, data) {
     try {
         const path = resolvePath(dbPath);
-        const data = fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf8')) : [];
-        const index = data.findIndex(record => record.id === targetId);
-        if (index !== -1) {
-            data[index] = { ...data[index], ...updatedRecord };
-            fs.writeFileSync(path, JSON.stringify(data, null, 2), 'utf8');
-            console.log('Record updated successfully');
-        } else {
-            console.log('Record not found');
+        // Check if the data is valid
+        if (!data) {
+            throw new Error("No data to update");
         }
+        // Check if data is an array or object
+        let updatedData;
+        if (Array.isArray(data)) {
+            updatedData = data.map(item => {
+                return item;
+            });
+        } else if (typeof data === 'object') {
+            updatedData = { ...data };
+        } else {
+            throw new Error("Unsupported data type for update");
+        }
+        fs.writeFileSync(path, JSON.stringify(updatedData, null, 2), 'utf8');
+        console.log('Records updated successfully');
     } catch (err) {
-        console.error('Error reading or writing the file:', err);
+        console.error('Error reading or writing the file:', err.message);
     }
 }
 
-function deleteRecord(dbPath, targetId) {
+function deleteRecords(dbPath, targetId) {
     try {
         const data = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath, 'utf8')) : [];
         const index = data.findIndex(record => record.id === targetId);
@@ -70,8 +78,8 @@ function deleteRecord(dbPath, targetId) {
 }
 
 export {
-    createRecord,
+    createRecords,
     readRecords,
-    updateRecord,
-    deleteRecord
+    updateRecords,
+    deleteRecords
 };

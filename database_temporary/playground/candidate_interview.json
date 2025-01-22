@@ -1,293 +1,294 @@
 [
-    {
-        "titleSectionName": "source",
-        "titleSectionColor": "#FF7F3E",
-        "titleSectionBackgroundColor": "#FFBFA7",
-        "totalCandidate": 10,
-        "candidate": [
-            { 
-                "userId": "CA-100001", 
-                "userName": "John Doe", 
-                "userEmail": "john_doe1234@gmail.com", 
-                "userPhone": "6281208726338", 
-                "userAge": "24", 
-                "userApplyFor": "BOSUN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100002", 
-                "userName": "Jane Smith", 
-                "userEmail": "jane_smith5678@gmail.com", 
-                "userPhone": "6281208726340", 
-                "userAge": "30", 
-                "userApplyFor": "CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100003", 
-                "userName": "Michael Johnson", 
-                "userEmail": "michael_johnson8901@gmail.com", 
-                "userPhone": "6281208726342", 
-                "userAge": "28", 
-                "userApplyFor": "ABLE BODIED",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100004", 
-                "userName": "Sarah Lee", 
-                "userEmail": "sarah_lee2345@gmail.com", 
-                "userPhone": "6281208726344", 
-                "userAge": "26", 
-                "userApplyFor": "OILER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100005", 
-                "userName": "David Kim", 
-                "userEmail": "david_kim6789@gmail.com", 
-                "userPhone": "6281208726346", 
-                "userAge": "32", 
-                "userApplyFor": "CHIEF OFFICER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100006", 
-                "userName": "Anna Williams", 
-                "userEmail": "anna_williams1122@gmail.com", 
-                "userPhone": "6281208726350", 
-                "userAge": "27", 
-                "userApplyFor": "SECOND OFFICER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100007", 
-                "userName": "William Brown", 
-                "userEmail": "william_brown2233@gmail.com", 
-                "userPhone": "6281208726352", 
-                "userAge": "29", 
-                "userApplyFor": "ENGINEER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100008", 
-                "userName": "Olivia Miller", 
-                "userEmail": "olivia_miller3344@gmail.com", 
-                "userPhone": "6281208726354", 
-                "userAge": "25", 
-                "userApplyFor": "CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100009", 
-                "userName": "Sophia Davis", 
-                "userEmail": "sophia_davis4455@gmail.com", 
-                "userPhone": "6281208726356", 
-                "userAge": "28", 
-                "userApplyFor": "SENIOR CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100010", 
-                "userName": "James Wilson", 
-                "userEmail": "james_wilson5566@gmail.com", 
-                "userPhone": "6281208726358", 
-                "userAge": "24", 
-                "userApplyFor": "CHIEF ENGINEER",  
-                "isUserMarked": "false" 
-            }
-        ]
-    },
-    {
-        "titleSectionName": "screening",
-        "titleSectionColor": "#604CC3",
-        "titleSectionBackgroundColor": "#B4A7E0",
-        "totalCandidate": 10,
-        "candidate": [
-            { 
-                "userId": "CA-100011", 
-                "userName": "Lucas Harris", 
-                "userEmail": "lucas_harris6677@gmail.com", 
-                "userPhone": "6281208726360", 
-                "userAge": "26", 
-                "userApplyFor": "PUMP MAN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100012", 
-                "userName": "Ethan Clark", 
-                "userEmail": "ethan_clark7788@gmail.com", 
-                "userPhone": "6281208726362", 
-                "userAge": "32", 
-                "userApplyFor": "PAINTER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100013", 
-                "userName": "Mia Taylor", 
-                "userEmail": "mia_taylor8899@gmail.com", 
-                "userPhone": "6281208726364", 
-                "userAge": "29", 
-                "userApplyFor": "MESSMAN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100014", 
-                "userName": "Alexander Martin", 
-                "userEmail": "alexander_martin9900@gmail.com", 
-                "userPhone": "6281208726366", 
-                "userAge": "27", 
-                "userApplyFor": "CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100015", 
-                "userName": "Sophie Roberts", 
-                "userEmail": "sophie_roberts1011@gmail.com", 
-                "userPhone": "6281208726368", 
-                "userAge": "22", 
-                "userApplyFor": "SENIOR CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100016", 
-                "userName": "Jacob Walker", 
-                "userEmail": "jacob_walker1122@gmail.com", 
-                "userPhone": "6281208726370", 
-                "userAge": "30", 
-                "userApplyFor": "WIPER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100017", 
-                "userName": "Grace Lee", 
-                "userEmail": "grace_lee2233@gmail.com", 
-                "userPhone": "6281208726372", 
-                "userAge": "24", 
-                "userApplyFor": "ABLE BODIED",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100018", 
-                "userName": "Isabella Garcia", 
-                "userEmail": "isabella_garcia3344@gmail.com", 
-                "userPhone": "6281208726374", 
-                "userAge": "25", 
-                "userApplyFor": "PUMP MAN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100019", 
-                "userName": "Liam Martinez", 
-                "userEmail": "liam_martinez4455@gmail.com", 
-                "userPhone": "6281208726376", 
-                "userAge": "28", 
-                "userApplyFor": "PAINTER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100020", 
-                "userName": "Olivia Jackson", 
-                "userEmail": "olivia_jackson5566@gmail.com", 
-                "userPhone": "6281208726378", 
-                "userAge": "31", 
-                "userApplyFor": "MESSMAN",  
-                "isUserMarked": "false" 
-            }
-        ]        
-    },
-    {
-        "titleSectionName": "interview",
-        "titleSectionColor": "#47B5FF",
-        "titleSectionBackgroundColor": "#A7D8FF",
-        "totalCandidate": 5,
-        "candidate": [
-            { 
-                "userId": "CA-100021", 
-                "userName": "Noah Carter", 
-                "userEmail": "noah_carter6677@gmail.com", 
-                "userPhone": "6281208726380", 
-                "userAge": "23", 
-                "userApplyFor": "ABLE BODIED",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100022", 
-                "userName": "Charlotte King", 
-                "userEmail": "charlotte_king7788@gmail.com", 
-                "userPhone": "6281208726382", 
-                "userAge": "28", 
-                "userApplyFor": "SENIOR CADET",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100023", 
-                "userName": "Benjamin Scott", 
-                "userEmail": "benjamin_scott8899@gmail.com", 
-                "userPhone": "6281208726384", 
-                "userAge": "31", 
-                "userApplyFor": "WIPER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100024", 
-                "userName": "Emily Evans", 
-                "userEmail": "emily_evans9900@gmail.com", 
-                "userPhone": "6281208726386", 
-                "userAge": "27", 
-                "userApplyFor": "PUMP MAN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100025", 
-                "userName": "Daniel Moore", 
-                "userEmail": "daniel_moore1122@gmail.com", 
-                "userPhone": "6281208726388", 
-                "userAge": "29", 
-                "userApplyFor": "PAINTER",  
-                "isUserMarked": "false" 
-            }
-        ]        
-    },
-    {
-        "titleSectionName": "approved",
-        "titleSectionColor": "#79D7BE",
-        "titleSectionBackgroundColor": "#C6E8E1",
-        "totalCandidate": 3,
-        "candidate": [
-            { 
-                "userId": "CA-100026", 
-                "userName": "Amelia Foster", 
-                "userEmail": "amelia_foster2233@gmail.com", 
-                "userPhone": "6281208726390", 
-                "userAge": "26", 
-                "userApplyFor": "MESSMAN",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100027", 
-                "userName": "Jack Peterson", 
-                "userEmail": "jack_peterson3344@gmail.com", 
-                "userPhone": "6281208726392", 
-                "userAge": "30", 
-                "userApplyFor": "WIPER",  
-                "isUserMarked": "false" 
-            },
-            { 
-                "userId": "CA-100028", 
-                "userName": "Grace Turner", 
-                "userEmail": "grace_turner4455@gmail.com", 
-                "userPhone": "6281208726394", 
-                "userAge": "27", 
-                "userApplyFor": "PUMP MAN",  
-                "isUserMarked": "false" 
-            }
-        ]
-    },
-    {
-        "titleSectionName": "rejected",
-        "titleSectionColor": "#D62323",
-        "titleSectionBackgroundColor": "#F2A6A6",
-        "totalCandidate": 0,
-        "candidate": []
-    }
+  {
+    "titleSectionName": "source",
+    "titleSectionColor": "#FF7F3E",
+    "titleSectionBackgroundColor": "#FFBFA7",
+    "totalCandidate": 8,
+    "candidate": [
+      {
+        "userId": "CA-100003",
+        "userName": "Michael Johnson",
+        "userEmail": "michael_johnson8901@gmail.com",
+        "userPhone": "6281208726342",
+        "userAge": "28",
+        "userApplyFor": "ABLE BODIED",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100004",
+        "userName": "Sarah Lee",
+        "userEmail": "sarah_lee2345@gmail.com",
+        "userPhone": "6281208726344",
+        "userAge": "26",
+        "userApplyFor": "OILER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100005",
+        "userName": "David Kim",
+        "userEmail": "david_kim6789@gmail.com",
+        "userPhone": "6281208726346",
+        "userAge": "32",
+        "userApplyFor": "CHIEF OFFICER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100006",
+        "userName": "Anna Williams",
+        "userEmail": "anna_williams1122@gmail.com",
+        "userPhone": "6281208726350",
+        "userAge": "27",
+        "userApplyFor": "SECOND OFFICER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100007",
+        "userName": "William Brown",
+        "userEmail": "william_brown2233@gmail.com",
+        "userPhone": "6281208726352",
+        "userAge": "29",
+        "userApplyFor": "ENGINEER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100008",
+        "userName": "Olivia Miller",
+        "userEmail": "olivia_miller3344@gmail.com",
+        "userPhone": "6281208726354",
+        "userAge": "25",
+        "userApplyFor": "CADET",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100009",
+        "userName": "Sophia Davis",
+        "userEmail": "sophia_davis4455@gmail.com",
+        "userPhone": "6281208726356",
+        "userAge": "28",
+        "userApplyFor": "SENIOR CADET",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100010",
+        "userName": "James Wilson",
+        "userEmail": "james_wilson5566@gmail.com",
+        "userPhone": "6281208726358",
+        "userAge": "24",
+        "userApplyFor": "CHIEF ENGINEER",
+        "isUserMarked": "false"
+      }
+    ]
+  },
+  {
+    "titleSectionName": "screening",
+    "titleSectionColor": "#604CC3",
+    "titleSectionBackgroundColor": "#B4A7E0",
+    "totalCandidate": 11,
+    "candidate": [
+      {
+        "userId": "CA-100011",
+        "userName": "Lucas Harris",
+        "userEmail": "lucas_harris6677@gmail.com",
+        "userPhone": "6281208726360",
+        "userAge": "26",
+        "userApplyFor": "PUMP MAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100012",
+        "userName": "Ethan Clark",
+        "userEmail": "ethan_clark7788@gmail.com",
+        "userPhone": "6281208726362",
+        "userAge": "32",
+        "userApplyFor": "PAINTER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100013",
+        "userName": "Mia Taylor",
+        "userEmail": "mia_taylor8899@gmail.com",
+        "userPhone": "6281208726364",
+        "userAge": "29",
+        "userApplyFor": "MESSMAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100014",
+        "userName": "Alexander Martin",
+        "userEmail": "alexander_martin9900@gmail.com",
+        "userPhone": "6281208726366",
+        "userAge": "27",
+        "userApplyFor": "CADET",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100015",
+        "userName": "Sophie Roberts",
+        "userEmail": "sophie_roberts1011@gmail.com",
+        "userPhone": "6281208726368",
+        "userAge": "22",
+        "userApplyFor": "SENIOR CADET",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100016",
+        "userName": "Jacob Walker",
+        "userEmail": "jacob_walker1122@gmail.com",
+        "userPhone": "6281208726370",
+        "userAge": "30",
+        "userApplyFor": "WIPER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100017",
+        "userName": "Grace Lee",
+        "userEmail": "grace_lee2233@gmail.com",
+        "userPhone": "6281208726372",
+        "userAge": "24",
+        "userApplyFor": "ABLE BODIED",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100018",
+        "userName": "Isabella Garcia",
+        "userEmail": "isabella_garcia3344@gmail.com",
+        "userPhone": "6281208726374",
+        "userAge": "25",
+        "userApplyFor": "PUMP MAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100019",
+        "userName": "Liam Martinez",
+        "userEmail": "liam_martinez4455@gmail.com",
+        "userPhone": "6281208726376",
+        "userAge": "28",
+        "userApplyFor": "PAINTER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100020",
+        "userName": "Olivia Jackson",
+        "userEmail": "olivia_jackson5566@gmail.com",
+        "userPhone": "6281208726378",
+        "userAge": "31",
+        "userApplyFor": "MESSMAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100002",
+        "userName": "Jane Smith",
+        "userEmail": "jane_smith5678@gmail.com",
+        "userPhone": "6281208726340",
+        "userAge": "30",
+        "userApplyFor": "CADET",
+        "isUserMarked": "false"
+      }
+    ]
+  },
+  {
+    "titleSectionName": "interview",
+    "titleSectionColor": "#47B5FF",
+    "titleSectionBackgroundColor": "#A7D8FF",
+    "totalCandidate": 5,
+    "candidate": [
+      {
+        "userId": "CA-100021",
+        "userName": "Noah Carter",
+        "userEmail": "noah_carter6677@gmail.com",
+        "userPhone": "6281208726380",
+        "userAge": "23",
+        "userApplyFor": "ABLE BODIED",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100022",
+        "userName": "Charlotte King",
+        "userEmail": "charlotte_king7788@gmail.com",
+        "userPhone": "6281208726382",
+        "userAge": "28",
+        "userApplyFor": "SENIOR CADET",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100023",
+        "userName": "Benjamin Scott",
+        "userEmail": "benjamin_scott8899@gmail.com",
+        "userPhone": "6281208726384",
+        "userAge": "31",
+        "userApplyFor": "WIPER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100024",
+        "userName": "Emily Evans",
+        "userEmail": "emily_evans9900@gmail.com",
+        "userPhone": "6281208726386",
+        "userAge": "27",
+        "userApplyFor": "PUMP MAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100025",
+        "userName": "Daniel Moore",
+        "userEmail": "daniel_moore1122@gmail.com",
+        "userPhone": "6281208726388",
+        "userAge": "29",
+        "userApplyFor": "PAINTER",
+        "isUserMarked": "false"
+      }
+    ]
+  },
+  {
+    "titleSectionName": "approved",
+    "titleSectionColor": "#79D7BE",
+    "titleSectionBackgroundColor": "#C6E8E1",
+    "totalCandidate": 3,
+    "candidate": [
+      {
+        "userId": "CA-100026",
+        "userName": "Amelia Foster",
+        "userEmail": "amelia_foster2233@gmail.com",
+        "userPhone": "6281208726390",
+        "userAge": "26",
+        "userApplyFor": "MESSMAN",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100027",
+        "userName": "Jack Peterson",
+        "userEmail": "jack_peterson3344@gmail.com",
+        "userPhone": "6281208726392",
+        "userAge": "30",
+        "userApplyFor": "WIPER",
+        "isUserMarked": "false"
+      },
+      {
+        "userId": "CA-100028",
+        "userName": "Grace Turner",
+        "userEmail": "grace_turner4455@gmail.com",
+        "userPhone": "6281208726394",
+        "userAge": "27",
+        "userApplyFor": "PUMP MAN",
+        "isUserMarked": "false"
+      }
+    ]
+  },
+  {
+    "titleSectionName": "rejected",
+    "titleSectionColor": "#D62323",
+    "titleSectionBackgroundColor": "#F2A6A6",
+    "totalCandidate": 1,
+    "candidate": [
+      {
+        "userId": "CA-100001",
+        "userName": "John Doe",
+        "userEmail": "john_doe1234@gmail.com",
+        "userPhone": "6281208726338",
+        "userAge": "24",
+        "userApplyFor": "BOSUN",
+        "isUserMarked": "false"
+      }
+    ]
+  }
 ]
